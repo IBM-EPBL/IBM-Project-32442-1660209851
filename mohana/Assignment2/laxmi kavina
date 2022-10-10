@@ -1,0 +1,13 @@
+                                                                    ASSIGNMENT – II
+
+PROGRAM CODE:
+Import random
+for I in range(10):
+	temp=random.randint(25,110)
+	print(“Detected that temperature is”,temp)
+	humidity=random.randint(35,70)
+	print(“Detected that humidity is”,humidity)
+	if(temp>40 and humidity>60):
+		print(“The TEMPERATURE and HUMIDITY is HIGH…Turn ON the alarm”)
+	else:
+		print(“The TEMPERATURE  and HUMIDITY is NORMAL…Keep the alarm OFF)
